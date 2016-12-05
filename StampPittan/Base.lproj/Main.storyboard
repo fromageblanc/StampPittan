@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StampPittan" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pU6-Ox-z4O">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stampbase.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="h5I-sd-eBQ">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="335" id="aas-pK-w6K"/>
+                                            <constraint firstAttribute="height" constant="265" id="tiE-hX-oO4"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stamp Demo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l02-C6-Iuw">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="129" id="AxL-nt-Sm7"/>
+                                            <constraint firstAttribute="height" constant="29" id="iyT-Xa-nrb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stamp01.png" translatesAutoresizingMaskIntoConstraints="NO" id="POY-em-8sI">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="54" id="AoJ-YA-lZC"/>
+                                            <constraint firstAttribute="width" constant="54" id="LuD-rW-E44"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stamp01.png" translatesAutoresizingMaskIntoConstraints="NO" id="xPu-C8-wSc">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="54" id="GQX-pU-pgd"/>
+                                            <constraint firstAttribute="width" constant="54" id="VoC-r7-SkS"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stamp01.png" translatesAutoresizingMaskIntoConstraints="NO" id="P2b-V1-uUY">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="54" id="8qj-xX-whS"/>
+                                            <constraint firstAttribute="width" constant="54" id="Hra-v4-edb"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stamp01.png" translatesAutoresizingMaskIntoConstraints="NO" id="W1C-J8-h4v">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="54" id="7Tk-ah-Hda"/>
+                                            <constraint firstAttribute="height" constant="54" id="zgA-63-Ux7"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stamp01.png" translatesAutoresizingMaskIntoConstraints="NO" id="6cw-MV-ye3">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="54" id="34W-Iw-rkw"/>
+                                            <constraint firstAttribute="width" constant="54" id="aPv-PV-zGb"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stamp01.png" translatesAutoresizingMaskIntoConstraints="NO" id="6PI-p9-Fiy">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="54" id="2Rf-kI-7EF"/>
+                                            <constraint firstAttribute="height" constant="54" id="b20-PM-lKd"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stamp01.png" translatesAutoresizingMaskIntoConstraints="NO" id="gom-wA-MFf">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="54" id="HTV-B3-2n1"/>
+                                            <constraint firstAttribute="width" constant="54" id="rt9-tL-vhF"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stamp01.png" translatesAutoresizingMaskIntoConstraints="NO" id="TFH-XN-ScJ">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="54" id="W7s-eW-qwf"/>
+                                            <constraint firstAttribute="height" constant="54" id="bFA-yg-sDT"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stamp01.png" translatesAutoresizingMaskIntoConstraints="NO" id="NV8-rS-2hZ">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="54" id="fDw-3Z-f34"/>
+                                            <constraint firstAttribute="width" constant="54" id="gJ2-as-BVW"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stamp01.png" translatesAutoresizingMaskIntoConstraints="NO" id="sFP-I8-3q5">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="54" id="1yI-3u-3vK"/>
+                                            <constraint firstAttribute="width" constant="54" id="bmY-rt-Sjl"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97070308810000006" green="1" blue="0.33406790829999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="P2b-V1-uUY" firstAttribute="top" secondItem="l02-C6-Iuw" secondAttribute="bottom" constant="25" id="1Ri-7W-NIu"/>
+                                    <constraint firstAttribute="height" constant="279" id="5M1-Ty-F8u"/>
+                                    <constraint firstItem="gom-wA-MFf" firstAttribute="leading" secondItem="6PI-p9-Fiy" secondAttribute="trailing" constant="1" id="6sp-8x-8eh"/>
+                                    <constraint firstItem="TFH-XN-ScJ" firstAttribute="top" secondItem="P2b-V1-uUY" secondAttribute="bottom" constant="13" id="8fX-q1-iZd"/>
+                                    <constraint firstItem="l02-C6-Iuw" firstAttribute="top" secondItem="pU6-Ox-z4O" secondAttribute="top" constant="87" id="8h8-fc-L6f"/>
+                                    <constraint firstAttribute="bottom" secondItem="h5I-sd-eBQ" secondAttribute="bottom" constant="6" id="8ls-aD-tfd"/>
+                                    <constraint firstItem="6cw-MV-ye3" firstAttribute="leading" secondItem="W1C-J8-h4v" secondAttribute="trailing" constant="8" id="8nt-eS-7ci"/>
+                                    <constraint firstItem="6PI-p9-Fiy" firstAttribute="top" secondItem="POY-em-8sI" secondAttribute="bottom" constant="13" id="B7Q-rL-WXY"/>
+                                    <constraint firstItem="xPu-C8-wSc" firstAttribute="leading" secondItem="POY-em-8sI" secondAttribute="trailing" constant="8" id="DFT-DW-mz4"/>
+                                    <constraint firstItem="sFP-I8-3q5" firstAttribute="leading" secondItem="NV8-rS-2hZ" secondAttribute="trailing" constant="12" id="DW7-LB-ppb"/>
+                                    <constraint firstItem="P2b-V1-uUY" firstAttribute="leading" secondItem="xPu-C8-wSc" secondAttribute="trailing" constant="8" id="GLM-4c-roW"/>
+                                    <constraint firstItem="TFH-XN-ScJ" firstAttribute="leading" secondItem="gom-wA-MFf" secondAttribute="trailing" constant="11" id="HfP-TH-ptE"/>
+                                    <constraint firstItem="h5I-sd-eBQ" firstAttribute="leading" secondItem="pU6-Ox-z4O" secondAttribute="leading" constant="4" id="HpY-8g-TRD"/>
+                                    <constraint firstAttribute="trailing" secondItem="h5I-sd-eBQ" secondAttribute="trailing" constant="4" id="KyZ-SD-Pit"/>
+                                    <constraint firstAttribute="width" constant="343" id="MAi-0f-ZfD"/>
+                                    <constraint firstItem="6cw-MV-ye3" firstAttribute="top" secondItem="pU6-Ox-z4O" secondAttribute="top" constant="140" id="Qfy-hT-QWR"/>
+                                    <constraint firstItem="W1C-J8-h4v" firstAttribute="top" secondItem="pU6-Ox-z4O" secondAttribute="top" constant="124" id="SA2-cE-IQA"/>
+                                    <constraint firstItem="gom-wA-MFf" firstAttribute="top" secondItem="xPu-C8-wSc" secondAttribute="bottom" constant="23" id="SXj-rD-NPx"/>
+                                    <constraint firstItem="POY-em-8sI" firstAttribute="leading" secondItem="pU6-Ox-z4O" secondAttribute="leading" constant="20" id="TQH-zG-KWi"/>
+                                    <constraint firstItem="h5I-sd-eBQ" firstAttribute="top" secondItem="pU6-Ox-z4O" secondAttribute="top" constant="8" id="VC3-aG-ZBn"/>
+                                    <constraint firstItem="W1C-J8-h4v" firstAttribute="leading" secondItem="sFP-I8-3q5" secondAttribute="trailing" constant="-116" id="ZOi-Qx-mB0"/>
+                                    <constraint firstItem="POY-em-8sI" firstAttribute="top" secondItem="l02-C6-Iuw" secondAttribute="bottom" constant="20" id="dCv-vQ-vmo"/>
+                                    <constraint firstItem="NV8-rS-2hZ" firstAttribute="top" secondItem="W1C-J8-h4v" secondAttribute="bottom" constant="24" id="pXU-nb-Qf6"/>
+                                    <constraint firstItem="NV8-rS-2hZ" firstAttribute="leading" secondItem="TFH-XN-ScJ" secondAttribute="trailing" constant="8" id="qn1-t4-spV"/>
+                                    <constraint firstItem="sFP-I8-3q5" firstAttribute="top" secondItem="6cw-MV-ye3" secondAttribute="bottom" constant="16" id="rv4-uN-IGr"/>
+                                    <constraint firstItem="xPu-C8-wSc" firstAttribute="top" secondItem="l02-C6-Iuw" secondAttribute="bottom" constant="20" id="tSU-vz-bNs"/>
+                                    <constraint firstItem="l02-C6-Iuw" firstAttribute="leading" secondItem="pU6-Ox-z4O" secondAttribute="leading" constant="23" id="vHf-cN-WZ2"/>
+                                    <constraint firstItem="6PI-p9-Fiy" firstAttribute="leading" secondItem="pU6-Ox-z4O" secondAttribute="leading" constant="24" id="zjB-gm-Och"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hph-j3-F49">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="77" id="fgP-jE-Q2G"/>
+                                    <constraint firstAttribute="height" constant="30" id="u1U-DL-OoT"/>
+                                </constraints>
+                                <state key="normal" title="スタンプ＋"/>
+                                <connections>
+                                    <action selector="stampAdd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Vj-SW-zc4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3U-gc-2JD">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="62" id="OLa-2O-JXj"/>
+                                    <constraint firstAttribute="height" constant="30" id="tAF-Kg-exl"/>
+                                </constraints>
+                                <state key="normal" title="リセット"/>
+                                <connections>
+                                    <action selector="stampReset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gw2-Lo-gSr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stamp Demo for Swift 3.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MxQ-3J-p46">
+                                <frame key="frameInset" minX="16" minY="54" width="263" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Q3U-gc-2JD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2g4-jV-lnj"/>
+                            <constraint firstItem="pU6-Ox-z4O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KOZ-xs-fgQ"/>
+                            <constraint firstItem="pU6-Ox-z4O" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="175" id="UxG-sG-iBW"/>
+                            <constraint firstItem="hph-j3-F49" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bJo-lZ-bUw"/>
+                            <constraint firstItem="hph-j3-F49" firstAttribute="top" secondItem="pU6-Ox-z4O" secondAttribute="bottom" constant="24" id="oJY-Wx-NCm"/>
+                            <constraint firstItem="Q3U-gc-2JD" firstAttribute="top" secondItem="hph-j3-F49" secondAttribute="bottom" constant="10" id="utg-qj-cl1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="stampBaseView" destination="pU6-Ox-z4O" id="OE2-Sc-75R"/>
+                        <outletCollection property="stamps" destination="POY-em-8sI" collectionClass="NSMutableArray" id="LYq-T5-kOM"/>
+                        <outletCollection property="stamps" destination="xPu-C8-wSc" collectionClass="NSMutableArray" id="CzJ-Ul-c8R"/>
+                        <outletCollection property="stamps" destination="P2b-V1-uUY" collectionClass="NSMutableArray" id="FhL-nY-Cgk"/>
+                        <outletCollection property="stamps" destination="W1C-J8-h4v" collectionClass="NSMutableArray" id="2RD-ME-WSa"/>
+                        <outletCollection property="stamps" destination="6cw-MV-ye3" collectionClass="NSMutableArray" id="pi2-3m-oyk"/>
+                        <outletCollection property="stamps" destination="6PI-p9-Fiy" collectionClass="NSMutableArray" id="7om-dI-kGp"/>
+                        <outletCollection property="stamps" destination="gom-wA-MFf" collectionClass="NSMutableArray" id="ITf-be-l8J"/>
+                        <outletCollection property="stamps" destination="TFH-XN-ScJ" collectionClass="NSMutableArray" id="gcn-Ep-egv"/>
+                        <outletCollection property="stamps" destination="NV8-rS-2hZ" collectionClass="NSMutableArray" id="Dtr-Ry-FSA"/>
+                        <outletCollection property="stamps" destination="sFP-I8-3q5" collectionClass="NSMutableArray" id="8OR-Rv-qQr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-674" y="93"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="stamp01.png" width="100" height="100"/>
+        <image name="stampbase.jpg" width="842" height="595"/>
+    </resources>
+</document>
